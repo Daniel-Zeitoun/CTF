@@ -3,7 +3,7 @@ USER root
 WORKDIR /root
 RUN apt-get update && apt-get install  openssh-server sudo nano curl wget netcat apache2 php php-sqlite3 libapache2-mod-php supervisor subversion -y \
 && groupadd scott \
-&& useradd --create-home --home /home/scott --shell /bin/bash --gid scott --groups scott scott \
+&& useradd --create-home --home /home/scott --shell /bin/bash --comment "Scott R. Fluhrer" --gid scott --groups scott scott \
 && echo 'scott:BIQzG4ay5md4A49egwrMQumaHvQPedr8pIZqVgHf' | chpasswd \
 && echo 'root:HU6M5tDOt2BIQzG4ay5mmaHvQPedr8pIZqVgHf' | chpasswd \
 && mkdir /var/run/sshd \
