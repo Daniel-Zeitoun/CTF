@@ -1,0 +1,158 @@
+
+/* Organisation globale de la page */
+body {
+    color: white;
+    background: center/100% url("/V/images/background.jpg");
+}
+
+#banniere {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-style: italic;
+}
+
+#header {
+    background-color: #313131;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    text-align: center;
+    border: thick double green;
+}
+
+#menu {
+    background-color: #313131;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    border: 2px solid white;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+}
+
+#menu div {
+    margin: auto;
+    font-size: 20px;
+}
+
+.void {
+    width: 150px;
+}
+
+#footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    text-align: center;
+    font-style: italic;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+/* Page d'accueil contenant les posts */
+
+#posts {
+    background-color: #313131;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.post {
+    background-color: #424242;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+    border: 2px solid white;
+    display: flex;
+}
+
+.headerPost {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 150px;
+    border-right: 1px solid white;
+}
+
+.imgPost img {
+    height: 75px;
+    width: 75px;
+    margin-bottom: 10px;
+}
+
+.pseudoPost {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.publishPost {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.bodyPost {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.titrePost {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.contentPost {
+    margin-bottom: 50px;
+}
+
+.footerPost {
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/* Page de connexion */
+
+#loginForm {
+    background-color: #313131;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border: 2px solid white;
+}
+
+#loginForm h3 {
+    margin-bottom: 2%;
+}
+
+.textbox {
+    margin-bottom: 10px;
+}
+
+.textbox input {
+    width: 250px;
+}
+
+.button {
+    margin-bottom: 2%;
+    width: 150px;
+}
+

@@ -1,0 +1,17 @@
+version: '2'
+services:
+    fornum:
+      build: .
+      image: fornum
+      container_name: "fornum"
+      hostname: fornum
+      ports:
+        - "80:80"
+        - "3222:3222"
+        - "4444:4444"
+    ctfd:
+      image: ctfd/ctfd:latest
+      container_name: "ctfd"
+      hostname: ctfd
+      ports:
+        - "8000:8000"

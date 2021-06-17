@@ -1,0 +1,1 @@
+FLAG{saltedSha256(Un mot de passe fort qu'on utilise partout, pas si utile ...)}

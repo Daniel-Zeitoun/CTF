@@ -1,0 +1,9 @@
+# Disable directory browsing
+Options -Indexes
+
+# Deny access to files with extensions .sqlite
+<FilesMatch "\.(sqlite)$">
+Order allow,deny
+Deny from all
+
+</FilesMatch>
