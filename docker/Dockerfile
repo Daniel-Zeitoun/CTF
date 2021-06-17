@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install  openssh-server sudo nano curl wget netcat
 
 COPY /app/apache/000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY /app/rop/rop /data/rop
-COPY /app/crypted/Lettre_Ricky_crypted.txt /root/Lettre_Ricky_crypted.txt
+COPY /app/flags/Lettre_Ricky_crypted.txt /root/Lettre_Ricky_crypted.txt
 COPY /app/supervisord/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY /app/docker/docker_start.sh /app/docker_start.sh
 COPY /app/web/ /var/www/fornum
