@@ -1,12 +1,12 @@
 # Introduction
-Le CTF a été concu pour pouvoir être monter directement en local, ou sur un serveur, et cela très facilement.</br>
+Ce CTF a été concu pour pouvoir être monter directement en local, ou sur un serveur, et cela très facilement.</br>
 Un Dockerfile a été créé à cet effet.</br>
 </br>
 Par défault, les ports sont :</br>
 fornum</br>
 - SSH 3222
 - HTTP 80
-ctfd</br>
+</br>ctfd
 - 8000 HTTP
 
 N.B. Les redirections de ports peuvent être modifiées à votre convenance au sein du fichier docker-compose.yml.</br>
