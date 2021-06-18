@@ -7,7 +7,7 @@ fornum</br>
 - SSH 3222
 - HTTP 80
 
-</br>ctfd
+ctfd
 - 8000 HTTP
 
 N.B. Les redirections de ports peuvent être modifiées à votre convenance au sein du fichier docker-compose.yml.</br>
